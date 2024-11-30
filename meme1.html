@@ -7,148 +7,129 @@
     <link href="css/main.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Potta One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-    </style>
+
 </head>
-
-<body style="background-color: #333333">
-    <div class="sticky-top">
-        <nav class="navbar navbar-expand bg-dark">
-            <div class="container-fluid">
-                <div class="navbar-left d-flex">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="images/logo.svg" alt="Logo" style="width: 73px; height:53px" >
-                    </a>
-                    <span class="h1 navbar-text text-white">memeoven</span>
-                </div>
-                <div class="navbar-right d-flex ms-auto">
-                    <form class="me-2" action="/search" method="get">
-                        <div class="input-group">
-                            <input class="form-control bg-light" type="text" name="query" placeholder="Search for kek">
-                            <button class="btn btn-warning" type="submit">Go</button>
-                        </div>
-                    </form>
-                    <a href="/login" class="btn btn-dark me-2 text-white">Log in</a>
-                    <a href="register.html" class="btn btn-warning">Sign up</a>
-                </div>
+<body class="bg-custom-dark-lighter">
+<div class="navbar-style">
+    <nav>
+        <div class="flex-navbar-left">
+          <a href="index.html">
+            <img src="images/logo.svg" alt="Logo" class="logo">
+          </a>
+          <span class="h1-navbar-text">memeoven</span>
+        </div>
+        <div class="flex-navbar-right">
+          <form>
+            <div class="input-group">
+              <input class="form-search" type="text" name="query" placeholder="Search for kek">
+              <button class="go-button" type="submit">Go</button>
             </div>
-        </nav>
+          </form>
+          <a href="" class="custom-btn-dark">Log in</a>
+          <a href="register.html" class="custom-btn-sign-up">Sign up</a>
+        </div>
+    </nav>
+  </div>
+  <div class="meme-container"> 
+    <div class="middle-positioning"> 
+  <div class="column">
+    </style>
+    <div class="left-menu-indent-text">
+      <a>
+        <img src="images/homey.svg" alt="Homey" class="icons-size" >
+      </a>
+      <span class="left-menu-span">
+       <a class="left-menu-link" href="index.html">Homey</a></span>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-3 col-md-12 fonts size border-end border-warning">
-                <style>
-                    .grey {
-                        border-color: #464745;
-                        background-color: #464745;
-                    }
-
-                    .bg-custom-dark-lighter {
-                        background-color: #333333;
-                    }
-                </style>
-                <div class="margin-top ms-5 mb-2 fonts">
-                    <a>
-                        <img src="images/homey.svg" alt="Homey" style="width: 30px;" >
-                    </a>
-                    <span class="fonts ms-3">
-                        <a class="links fonts text-white" href="/">Homey</a></span>
-                </div>
-                <div class="ms-5 mb-2">
-                    <a>
-                        <img src="images/topofthetop.svg" alt="Top" style="width: 30px;" >
-                    </a>
-                    <span class="fonts ms-3">
-                        <a class="links fonts text-white" href="/top-rate">Top of the top</a></span>
-                </div>
-                <div class="ms-5">
-                    <a>
-                        <img src="images/niceAndFresh.svg" alt="Fresh" style="width: 30px;" >
-                    </a>
-                    <span class="fonts ms-3">
-                        <a class="links fonts text-white" href="/new">Nice and fresh</a></span>
-                </div>
-                <div class="mt-5 ms-5">
-                    <a>
-                        <img src="images/profiley.svg" alt="Logo" style="width: 30px;" >
-                    </a>
-                    <span class="fonts ms-3">
-                        <a class="links fonts text-white" href="/profile">Profiley</a></span>
-                </div>
-                <div class="mt-5 bg-custom-dark-lighter text-center">
-                    <h4 class="text-white btn"> Choose your fighter</h4>
-                </div>
-                <div class="mb-1 bg-custom-dark-lighter text-center">
-                    <div class="mb-1 btn-group-sm fonts">
-                        <a href="/category/food" class="btn grey me-2 text-white">food</a>
-                        <a href="/category/pepega" class="btn grey me-2 text-white">pepega</a>
-                        <a href="/category/work" class="btn grey text-white">work</a>
-                    </div>
-                    <div class="mb-1 bg-custom-dark-lighter">
-                        <div class="mb-1 btn-group-sm">
-                            <a href="/category/politics" class="btn grey me-2 text-white">politics</a>
-                            <a href="/category/anime" class="btn grey me-2 text-white">anime</a>
-                            <a href="/category/animals" class="btn grey text-white">animals</a>
-                        </div>
-                        <div class="bg-custom-dark-lighter">
-                            <div class="btn-group-sm">
-                                <a href="/category/gaming" class="btn grey me-2 text-white">gaming</a>
-                                <a href="/category/adult" class="btn grey text-white">adult</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-8 col-md-12 fonts">
-                <div class="ms-5 mb-2 fonts">
-                    <h2 class="mt-5 ms-5 text-white text-start">Cat meme</h2>
-                    <div class="form-control text-start bg-custom-dark-lighter border-0">
+    <div class="left-menu-indent-text">
+      <a>
+        <img src="images/topofthetop.svg" alt="Top" class="icons-size" >
+      </a>
+      <span class="left-menu-span">
+      <a class="left-menu-link" href="">Top of the top</a></span>
+    </div>
+    <div class="left-menu-indent-text">
+      <a>
+        <img src="images/niceAndFresh.svg" alt="Fresh" class="icons-size">
+      </a>
+      <span class="left-menu-span">
+      <a class="left-menu-link" href="">Nice and fresh</a></span>
+    </div>
+    <div class="left-menu-indent-text">
+      <a>
+        <img src="images/profiley.svg" alt="Logo" class="icons-size" >
+      </a>
+      <span class="left-menu-span">
+      <a class="left-menu-link" href="">Profiley</a></span>
+    </div>
+    <div class="left-menu-indent-tags">
+      <h4 class="tags-heading"> Choose your fighter</h4>
+    </div>
+    <div class="left-menu-indent-tags">
+      <div class="tags-container">
+        <a href="" class="tag-btn">food</a>
+        <a href="" class="tag-btn">pepega</a>
+        <a href="" class="tag-btn">work</a>
+      </div>
+      <div class="tags-container">
+        <div class="tags-container">
+          <a href="" class="tag-btn">politics</a>
+          <a href="" class="tag-btn">anime</a>
+          <a href="" class="tag-btn">animals</a>
+        </div>
+        <div class="tags-container">
+          <div class="btn-group-sm">
+            <a href="" class="tag-btn">gaming</a>
+            <a href="" class="tag-btn">adult</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            <div class="content-align-meme-page">
+                <div class="meme-page-name-margin">
+                    <h2 class="meme-page-name-style">Cat meme</h2>
+                    <div class="meme-placeholder">
                             <img src="images/meme1.jpg" alt="meme" class="custom-image">
-                        <div class="button-container text-warning">
+                        <div class=".under-meme-button-container">
                             <button type="button" class="btn">
-                                <img src="images/like.svg" alt="like" style="width: 18px;" >
+                                <img src="images/like.svg" alt="like" class="action-buttons" >
                             </button>
-                            <span id="meme1">0</span>
-                            <button type="button" class="btn" onclick="window.location.href='#comment';">
-                                <img src="images/comments.svg" alt="comment" style="width: 18px;" >
+                            <span id="meme1" class="meme-page-action-count">0</span>
+                            <button type="button" class="btn">
+                                <img src="images/comments.svg" alt="comment" class="action-buttons" >
                             </button>
-                            <span id="commentCount">0</span>
+                            <span id="commentCount" class="meme-page-action-count">0</span>
                             <button type="button" class="btn">
 
-                                <img src="images/save.svg" id="favouriteMeme1" alt="save" style="width: 16px;"
-                                    >
+                                <img src="images/save.svg" id="favouriteMeme1" alt="save" class="action-buttons">
                             </button>
                             <span>
-                                <a href="/member/1" class="link-style">@CatMemeMaster</a>
+                                <a href="" class="link-style">@CatMemeMaster</a>
                             </span>
                         </div>
                     </div>
-                    <div class="mt-5 mb-5">
-                        <a href="/category/animals" class="btn grey me-2 text-white">animals</a>
+                    <div class="meme-page-tag">
+                        <a href="" class="tag-btn">animals</a>
                     </div>
-                    <form method="post" action="/meme-page/1/comment">
+                    <form method="post" action="">
                         <div class="text-start">
                             <div>
-                                <label class="text-white fonts mb-2" for="comment">Write something here (we don't
+                                <label class="meme-page-comment-section-title" for="comment">Write something here (we don't
                                     care)</label>
                             </div>
                             <div>
-                                <textarea class="form-large bg-light border-warning" rows="5" id="comment" name="text"
+                                <textarea class="meme-page-comment" rows="5" id="comment" name="text"
                                     required></textarea>
                             </div>
                             <div>
-                                <button type="reset" class="mt-2 btn btn-dark fonts btn-sm text-white">Cancel</button>
-                                <button type="submit" class="mt-2 btn btn-warning fonts btn-sm">Post</button>
+                                <button type="reset" class="btn-cancel">Cancel</button>
+                                <button type="submit" class="btn-post">Post</button>
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="mt-5 mb-2">
-                    <section class="text-white mb-3">
-
-                    </section>
+                <div class="memepage-bottom">
                 </div>
             </div>
         </div>
