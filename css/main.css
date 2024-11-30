@@ -109,12 +109,11 @@ div.a {
 
 
 .multi-meme-table {
-    border: 1px solid yellow; 
     border-spacing: 10px; 
 }
 
 .multi-meme-table td {
-    border: 1px solid yellow; 
+    border: 1px solid #d39e00; 
     padding: 10px;
     text-align: center; 
 }
