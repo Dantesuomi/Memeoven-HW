@@ -14,7 +14,7 @@
 </head>
 
 <body class="bg-custom-dark-lighter">
-<div class="sticky-top">
+    <div class="sticky-top">
         <nav class="navbar navbar-expand bg-dark">
             <div class="container-fluid">
                 <div class="navbar-left d-flex">
@@ -38,10 +38,10 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-md-12 fonts size border-end border-warning">
+            <div class="col-lg-3 fonts size">
                 <div class="margin-top ms-5 mb-2 fonts">
                     <a>
-                        <img src="images/homey.svg" alt="Homey" class="square" width="30">
+                        <img src="images/homey.svg" alt="Homey" class="square w-30">
                     </a>
                     <span class="fonts ms-3 fs-5">
                         <a class="links fonts text-white" href="index.html">Homey</a>
@@ -49,7 +49,7 @@
                 </div>
                 <div class="ms-5 mb-2 fs-5">
                     <a>
-                        <img src="images/topofthetop.svg" alt="Top" class="square" width="30">
+                        <img src="images/topofthetop.svg" alt="Top" class="square w-30">
                     </a>
                     <span class="fonts ms-3">
                         <a class="links fonts text-white" href="">Top of the top</a>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="ms-5 fs-5">
                     <a>
-                        <img src="images/niceAndFresh.svg" alt="Fresh" class="square" width="30">
+                        <img src="images/niceAndFresh.svg" alt="Fresh" class="square w-30">
                     </a>
                     <span class="fonts ms-3">
                         <a class="links fonts text-white" href="">Nice and fresh</a>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="mt-5 ms-5 fs-5">
                     <a>
-                        <img src="images/profiley.svg" alt="Logo" class="square" width="30">
+                        <img src="images/profiley.svg" alt="Logo" class="square w-30">
                     </a>
                     <span class="fonts ms-3">
                         <a class="links fonts text-white" href="">Profiley</a>
@@ -95,11 +95,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8 col-md-12 fonts">
+            <div class="col-lg-8 col-md-12 fonts border-start border-2 border-warning">
                 <div class="ms-5 mb-2 fonts">
                     <h2 class="mt-5 ms-5 text-white text-start">Cat meme</h2>
-                    <div class="form-control text-start bg-custom-dark-lighter border-0">
-                            <img src="images/meme1.jpg" alt="meme" class="custom-image">
+                    <!--removed form-control-->
+                    <div class="text-start bg-custom-dark-lighter border-0">
+                        <img src="images/meme1.jpg" alt="meme" class="custom-image">
                         <div class="button-container text-warning">
                             <button type="button" class="btn">
                                 <img src="images/like.svg" alt="like" style="width: 18px;" class="square">
@@ -115,18 +116,17 @@
                                     class="square">
                             </button>
                             <span>
-                                <a href="/member/1" class="link-style">@CatMemeMaster</a>
+                                <a href="" class="link-style">@CatMemeMaster</a>
                             </span>
                         </div>
                     </div>
                     <div class="mt-5 mb-5">
-                        <a href="" class="btn grey me-2 text-white">animals</a>
+                        <a href="" class="btn btn-secondary me-2 text-white">animals</a>
                     </div>
-                    <form method="post" action="/meme-page/1/comment">
+                    <form method="post">
                         <div class="text-start">
                             <div>
-                                <label class="text-white fonts mb-2" for="comment">Write something here (we don't
-                                    care)</label>
+                                <label class="text-white fonts mb-2" for="comment">Write something here (we don'tcare)</label>
                             </div>
                             <div>
                                 <textarea class="form-large bg-light border-warning" rows="5" id="comment" name="text"
@@ -141,11 +141,11 @@
                 </div>
                 <div class="mt-5 mb-2">
                     <section class="text-white mb-3">
-
                     </section>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
