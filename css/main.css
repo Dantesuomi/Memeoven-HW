@@ -115,10 +115,13 @@ div.a {
 }
 
 .slider-image {
-  /* width: 500px; */
   height: 500px;
-  /* min-width: 300px;
-  margin-top: 20px;  */
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  max-width: 20rem;
   justify-content: center;
   align-items: center;
 }
