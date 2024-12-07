@@ -25,7 +25,7 @@
 div.a {
     text-align: right;
 }
-square
+
 .form-middle {
     width: 285px;
 }
@@ -112,4 +112,13 @@ square
 
 .icon-left {
   width: 30px;
+}
+
+.slider-image {
+  /* width: 500px; */
+  height: 500px;
+  /* min-width: 300px;
+  margin-top: 20px;  */
+  justify-content: center;
+  align-items: center;
 }
