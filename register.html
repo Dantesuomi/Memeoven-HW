@@ -1,93 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Meme-page</title>
-        <link href="css/main.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Potta One' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    </head>
-    
-    <body class="bg-custom-dark-lighter">
-        <div class="navbar-style">
-            <nav>
-                <div class="flex-navbar-left">
-                    <a href="index.html">
-                        <img src="images/logo.svg" alt="Logo" class="logo">
-                    </a>
-                    <span class="h1-navbar-text">memeoven</span>
-                </div>
-                <div class="flex-navbar-right">
-                    <form>
-                        <div class="input-group">
-                            <input class="form-search" type="text" name="query" placeholder="Search for kek">
-                            <button class="go-button" type="submit">Go</button>
-                        </div>
-                    </form>
-                    <a href="" class="custom-btn-dark">Log in</a>
-                    <a href="register.html" class="custom-btn-sign-up">Sign up</a>
-                </div>
-            </nav>
-        </div>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meme-page</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Potta One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body class="bg-custom-dark-lighter">
+    <div class="navbar-style">
+        <nav>
+            <div class="flex-navbar-left">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="Logo" class="logo">
+                </a>
+                <span class="h1-navbar-text">memeoven</span>
+            </div>
+            <div class="flex-navbar-right">
+                <form>
+                    <div class="input-group">
+                        <input class="form-search" type="text" name="query" placeholder="Search for kek">
+                        <button class="go-button" type="submit">Go</button>
+                    </div>
+                </form>
+                <a href="" class="custom-btn-dark">Log in</a>
+                <a href="register.html" class="custom-btn-sign-up">Sign up</a>
+            </div>
+        </nav>
+    </div>
 
     <div class="meme-container">
         <div class="register-page-middle-positioning">
-        <div class="register-page-positioning">
-            <div >
-                <h2 class="register-page-title">a little party never hurt nobody</h2>
+            <div class="register-page-positioning">
+                <div>
+                    <h2 class="register-page-title">a little party never hurt nobody</h2>
+                </div>
+                <div>
+                    <a>
+                        <img src="images/peepo_cook.png" class="register-page-image" alt="meme-cook">
+                    </a>
+                </div>
             </div>
             <div>
-                <a>
-                    <img src="images/peepo_cook.png" class="register-page-image" alt="meme-cook">
-                </a>
+                <form method="post" class="input-group-register">
+                    <div>
+                        <h1 class="register-page-form-title">Wanna sign up?</h1>
+                    </div>
+                    <div class="input-group-form-fields">
+                        <label class="register-page-form-field">Username
+                            <input name="username" class="register-page-form-field-control" type="text"
+                                placeholder="Username" required>
+                        </label>
+                    </div>
+                    <div class="input-group-form-fields">
+                        <label class="register-page-form-field">Email
+                            <input name="email" class="register-page-form-field-control" type="text" placeholder="Email"
+                                required>
+                        </label>
+                    </div>
+                    <div class="input-group-form-fields">
+                        <label class="register-page-form-field">Password
+                            <input name="password" class="register-page-form-field-control" type="password"
+                                placeholder="Password" required>
+                        </label>
+                    </div>
+
+                    <div class="input-group-form-fields">
+                        <label class="register-page-form-field">Gender
+                            <select name="gender" id="gender" class="register-page-form-field-control">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="unspecified">Unspecified</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="input-group-form-fields">
+                        <label class="register-page-form-field">Birthday
+                            <input type="date" id="birthday" name="birthday" class="register-page-form-field-control">
+                        </label>
+                    </div>
+                    <div class="input-group-form-fields">
+                        <button class="btn-post" type="sign-up">Sign up</button>
+                    </div>
+                </form>
             </div>
         </div>
-        <div>
-            <form method="post" class="input-group-register">
-                <div>
-                    <h1 class="register-page-form-title" >Wanna sign up?</h1>
-                </div>
-                <div class="input-group-form-fields" >
-                    <label class="register-page-form-field">Username
-                        <input name="username" class="register-page-form-field-control" type="text" placeholder="Username"
-                               required>
-                    </label>
-                </div>
-                <div class="input-group-form-fields">
-                    <label class="register-page-form-field">Email
-                        <input name="email" class="register-page-form-field-control" type="text" placeholder="Email"
-                               required>
-                    </label>
-                </div>
-                <div class="input-group-form-fields">
-                    <label class="register-page-form-field">Password
-                        <input name="password" class="register-page-form-field-control" type="password"
-                               placeholder="Password" required>
-                    </label>
-                </div>
-
-                <div class="input-group-form-fields">
-                    <label class="register-page-form-field">Gender
-                        <select name="gender" id="gender" class="register-page-form-field-control" >
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            <option value="unspecified">Unspecified</option>
-                          </select>
-                    </label>
-                </div>
-
-                <div class="input-group-form-fields">
-                    <label class="register-page-form-field">Birthday
-                        <input type="date" id="birthday" name="birthday" class="register-page-form-field-control" >
-                    </label>
-                </div>
-                <div class="input-group-form-fields">
-                    <button class="btn-post" type="sign-up">Sign up</button>
-                </div>
-            </form>
-        </div>
     </div>
-</div>
 </body>
+
 </html>
