@@ -125,3 +125,38 @@ div.a {
   justify-content: center;
   align-items: center;
 }
+
+.hiddenMeme {
+  display: none;
+}
+
+.visibleMeme {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 10; 
+}
+
+.image-wrapper {
+  position: relative;  
+  display: inline-block;
+}
+
+.parallax-style {
+  width: 100%; 
+  position: relative; 
+  transition: transform 0.3s ease;
+}
