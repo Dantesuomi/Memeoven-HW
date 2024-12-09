@@ -105,6 +105,11 @@ div.a {
   width: 18px;
 }
 
+.avatar {
+  width: 32px;
+  height: 32px;
+}
+
 .logo {
   width: 73px; 
   height:53px
