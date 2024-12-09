@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Potta One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script/script.js"></script>
+    <script src="script/favouriteMeme.js"></script>
     <script src="script/likeMeme.js"></script>
     <script src="script/rotateOnHover.js"></script>
     <script src="script/unhideOnScroll.js"></script>
@@ -156,7 +156,8 @@
                                 </a>
                             </div>
                             <div class="button-container text-center text-warning mt-2">
-                                <button type="button" class="btn" onclick="increaseMemeLikeCount('1')">
+                                <div id="memeError1" class="d-flex justify-content-center mt-3"></div>
+                                <button type="button" class="btn" onclick="increaseMemeLikeCount(1)">
                                     <img src="images/like.svg" alt="like" class="square icon-small">
                                 </button>
                                 <span id="meme1">0</span>
@@ -164,7 +165,7 @@
                                     <img src="images/comments.svg" alt="comment" class="square icon-small">
                                 </button>
                                 <span id="commentCount">0</span>
-                                <button type="button" class="btn" onclick="makeMemeFavourite('1')">
+                                <button type="button" class="btn" onclick="makeMemeFavourite(1)">
 
                                     <img src="images/save.svg" id="favouriteMeme1" alt="save" class="square icon-small">
                                 </button>
@@ -190,15 +191,16 @@
                                 </a>
                             </div>
                             <div class="button-container text-center text-warning mt-2">
-                                <button type="button" class="btn">
+                                <div id="memeError2" class="d-flex justify-content-center mt-3"></div>
+                                <button type="button" class="btn" onclick="increaseMemeLikeCount(2)">
                                     <img src="images/like.svg" alt="like" class="square icon-small">
                                 </button>
-                                <span id="meme3">0</span>
+                                <span id="meme2">0</span>
                                 <button type="button" class="btn">
                                     <img src="images/comments.svg" alt="comment" class="square icon-small">
                                 </button>
                                 <span id="commentCount">0</span>
-                                <button type="button" class="btn" onclick="makeMemeFavourite('2')">
+                                <button type="button" class="btn" onclick="makeMemeFavourite(2)">
                                     <img src="images/save.svg" id="favouriteMeme2" alt="save" class="square icon-small">
                                 </button>
                                 <span>
@@ -224,17 +226,17 @@
                                 </a>
                             </div>
                             <div class="button-container text-center text-warning mt-2">
-                                <button type="button" class="btn">
+                                <div id="memeError3" class="d-flex justify-content-center mt-3"></div>
+                                <button type="button" class="btn" onclick="increaseMemeLikeCount(3)">
                                     <img src="images/like.svg" alt="like" class="square icon-small">
                                 </button>
-                                <span id="meme1">0</span>
+                                <span id="meme3">0</span>
                                 <button type="button" class="btn">
                                     <img src="images/comments.svg" alt="comment" class="square icon-small">
                                 </button>
                                 <span id="commentCount">0</span>
-                                <button type="button" class="btn" onclick="makeMemeFavourite('1')">
-
-                                    <img src="images/save.svg" id="favouriteMeme1" alt="save" class="square icon-small">
+                                <button type="button" class="btn" onclick="makeMemeFavourite(3)">
+                                    <img src="images/save.svg" id="favouriteMeme3" alt="save" class="square icon-small">
                                 </button>
                                 <span>
                                     <a href="" class="link-style">@CatMemeMaster</a>
@@ -259,17 +261,18 @@
                                 </a>
                             </div>
                             <div class="button-container text-center text-warning mt-2">
-                                <button type="button" class="btn">
+                                <div id="memeError4" class="d-flex justify-content-center mt-3"></div>
+                                <button type="button" class="btn" onclick="increaseMemeLikeCount(4)">
                                     <img src="images/like.svg" alt="like" class="square icon-small">
                                 </button>
-                                <span id="meme1">0</span>
+                                <span id="meme4">0</span>
                                 <button type="button" class="btn">
                                     <img src="images/comments.svg" alt="comment" class="square icon-small">
                                 </button>
                                 <span id="commentCount">0</span>
-                                <button type="button" class="btn" onclick="makeMemeFavourite('1')">
+                                <button type="button" class="btn" onclick="makeMemeFavourite(4)">
 
-                                    <img src="images/save.svg" id="favouriteMeme1" alt="save" class="square icon-small">
+                                    <img src="images/save.svg" id="favouriteMeme4" alt="save" class="square icon-small">
                                 </button>
                                 <span>
                                     <a href="" class="link-style">@CatMemeMaster</a>
@@ -294,17 +297,18 @@
                                 </a>
                             </div>
                             <div class="button-container text-center text-warning mt-2">
-                                <button type="button" class="btn">
+                                <div id="memeError5" class="d-flex justify-content-center mt-3"></div>
+                                <button type="button" class="btn" onclick="increaseMemeLikeCount(5)">
                                     <img src="images/like.svg" alt="like" class="square icon-small">
                                 </button>
-                                <span id="meme1">0</span>
+                                <span id="meme5">0</span>
                                 <button type="button" class="btn">
                                     <img src="images/comments.svg" alt="comment" class="square icon-small">
                                 </button>
                                 <span id="commentCount">0</span>
-                                <button type="button" class="btn" onclick="makeMemeFavourite('1')">
+                                <button type="button" class="btn" onclick="makeMemeFavourite(5)">
 
-                                    <img src="images/save.svg" id="favouriteMeme1" alt="save" class="square icon-small">
+                                    <img src="images/save.svg" id="favouriteMeme5" alt="save" class="square icon-small">
                                 </button>
                                 <span>
                                     <a href="" class="link-style">@CatMemeMaster</a>
