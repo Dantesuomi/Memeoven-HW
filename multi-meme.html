@@ -101,38 +101,38 @@
             <div class="col-lg-8 col-md-12 fonts border-start border-2 border-warning ">
                 <div class="ms-5 mb-2 fonts">
                     <h2 class="mt-5 ms-5 text-white text-start">Multi meme</h2>
-                        <table class="table table-borderless custom-table">
-                            <tr class="p-3 text-left parallax-row">
-                                <td><img src="images/big-buck-bunny.jpg" class="custom-image parallax-style"></td>
-                            </tr>
-                            <tr class="p-3 text-left">
-                                <td><video class="custom-image" controls>
+                    <table class="table table-borderless custom-table">
+                        <tr class="p-3 text-left parallax-row">
+                            <td><img src="images/big-buck-bunny.jpg" class="custom-image parallax-style"></td>
+                        </tr>
+                        <tr class="p-3 text-left">
+                            <td><video class="custom-image" controls>
                                     <source src="media/bunny.mp4" type="video/mp4">
                                 </video></td>
-                            </tr>
-                            <tr class="p-3 text-left">
-                                <td><audio controls>
+                        </tr>
+                        <tr class="p-3 text-left">
+                            <td><audio controls>
                                     <source src="media/guitar-loop.mp3" type="audio/mpeg">
                                 </audio></td>
-                            </tr>
-                        </table>       
-                        <div class="button-container text-warning">
-                            <button type="button" class="btn" onclick="increaseMemeLikeCount(2)">
-                                <img src="images/like.svg" alt="like" class="square icon-small">
-                            </button>
-                            <span id="meme2">0</span>
-                            <button type="button" class="btn">
-                                <img src="images/comments.svg" alt="comment" class="square icon-small">
-                            </button>
-                            <span id="commentCount">0</span>
-                            <button type="button" class="btn" onclick="makeMemeFavourite(2)">
+                        </tr>
+                    </table>
+                    <div class="button-container text-warning">
+                        <button type="button" class="btn" onclick="increaseMemeLikeCount(2)">
+                            <img src="images/like.svg" alt="like" class="square icon-small">
+                        </button>
+                        <span id="meme2">0</span>
+                        <button type="button" class="btn">
+                            <img src="images/comments.svg" alt="comment" class="square icon-small">
+                        </button>
+                        <span id="commentCount">0</span>
+                        <button type="button" class="btn" onclick="makeMemeFavourite(2)">
 
-                                <img src="images/save.svg" id="favouriteMeme2" alt="save" class="square icon-small">
-                            </button>
-                            <span>
-                                <a href="" class="link-style">@BigBuckBunny</a>
-                            </span>
-                        </div>
+                            <img src="images/save.svg" id="favouriteMeme2" alt="save" class="square icon-small">
+                        </button>
+                        <span>
+                            <a href="" class="link-style">@BigBuckBunny</a>
+                        </span>
+                    </div>
                     <div class="mt-5 mb-5">
                         <a href="" class="btn btn-secondary me-2 text-white">animals</a>
                     </div>
@@ -142,7 +142,8 @@
                                 <label class="text-white fonts mb-2" for="comment">Write something here (we don't care)</label>
                             </div>
                             <div>
-                                <textarea class="form-large bg-light border-warning" rows="5" id="comment" name="text" required></textarea>
+                                <textarea class="form-large bg-light border-warning" rows="5" id="comment" name="text"
+                                    required></textarea>
                             </div>
                             <div>
                                 <button type="reset" class="mt-2 btn btn-dark fonts btn-sm text-white">Cancel</button>
@@ -161,4 +162,5 @@
         </div>
     </div>
 </body>
+
 </html>

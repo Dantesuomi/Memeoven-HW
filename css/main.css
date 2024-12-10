@@ -105,6 +105,10 @@ div.a {
   width: 18px;
 }
 
+.max-width-70 {
+    max-width: 70rem;
+}
+
 .avatar {
   width: 32px;
   height: 32px;

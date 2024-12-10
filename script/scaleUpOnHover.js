@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function scaleUp() {
         image.style.transform = "scale(1.5)";
-        image.style.transition = "transform 0.3s ease"; // Smooth scaling
+        image.style.transition = "transform 0.3s ease"; 
     }
 
     function scaleDown() {

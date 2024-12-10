@@ -25,7 +25,7 @@
     });
 
     function validateEmail(email) {
-        const regex = /^[^@]+@[^@]+\.[^@]+$/; // Contains @ and .
+        const regex = /^[^@]+@[^@]+\.[^@]+$/; 
         return regex.test(email);
     };
 
