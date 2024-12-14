@@ -25,3 +25,8 @@ On index page memes (divs) are appearing on scrolling.\
 On registration hovering on picture increases its size.\
 2nd meme (Multimeme) has parallax effect on its page.\
 Comments are implemented on meme pages
+
+## APIs
+
+In apis two calls are used. Random cat picture API which afterwards is used to generate cat memes.\
+Second is useless facts which are displayed on top of the page.
